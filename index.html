@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sample-Site</title>
+    <style>
+        *{
+            /* margin: 10px;
+            padding: 10px; */
+        }
+        body{
+            position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+        height: 100%;
+
+        }
+    img{
+        width:100%;
+        height: 100%;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: -30px;
+        margin-top: 30px;
+        z-index: -1;
+
+    }
+    .container{
+        background: rgb(65, 63, 63);
+        width: 90%;
+        height: 100%;
+        border-radius: 50px;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .childbox1{
+        background: red;
+        width: 100%;
+        height: 50px;
+    }
+    .childbox2{
+        background: lightskyblue;
+        flex: 1;
+        display: flex;
+    }
+    .leftbox{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .rightbox{
+        flex: .3;
+        display: flex;
+    }
+    .title{
+        border: 2px solid;
+        height: 30px;
+        width: 100%;
+    }
+    .green{
+        background: darkgreen;
+
+    }
+    .purple{
+        background: purple;
+    }
+    .childbox4{
+        flex: 1;
+        background-image: url(./images/scenery.jpg);
+    }
+    .lorem{
+        flex: 1;
+        background-color: yellow;
+        height: 50%;
+        column-count: 2;
+        padding: 20px;
+        text-align: justify;
+    }
+    </style>
+
+
+</head>
+<body>
+    <img src="./images/SampleSite.png" alt="">
+    <div class="container">
+        
+        <div class="childbox1">
+
+        </div>
+        <div class="childbox2">
+        <div class="leftbox">
+            <div class="title green"></div>
+            <div class="childbox4"></div>
+            <div class="lorem">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione delectus ab officiis voluptates dolorum minima cumque facere vitae nesciunt aliquam, excepturi labore pariatur ea eum quod. Ipsum dolorum nostrum cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit maxime voluptatum necessitatibus provident eaque reiciendis numquam soluta, distinctio quo voluptates praesentium sequi, libero esse debitis vero asperiores beatae sunt nemo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem ipsam omnis eos maiores! Facilis expedita similique mollitia, totam voluptatem illo praesentium excepturi tempore quae earum quo assumenda odio dolorum magni?</p>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione delectus ab officiis voluptates dolorum minima cumque facere vitae nesciunt aliquam, excepturi labore pariatur ea eum quod. Ipsum dolorum nostrum cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit maxime voluptatum necessitatibus provident eaque reiciendis numquam soluta, distinctio quo voluptates praesentium sequi, libero esse debitis vero asperiores beatae sunt nemo. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rem ipsam omnis eos maiores! Facilis expedita similique mollitia, totam voluptatem illo praesentium excepturi tempore quae earum quo assumenda odio dolorum magni?</p>
+
+            </div>
+        </div>
+        <div class="rightbox childbox3">
+            <div class="title purple"></div>
+
+        </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
